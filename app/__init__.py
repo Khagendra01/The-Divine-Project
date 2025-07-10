@@ -1,0 +1,1 @@
+# MiniMind - Personal AI Assistant Backend 
