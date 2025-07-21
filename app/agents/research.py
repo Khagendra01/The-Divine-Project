@@ -25,7 +25,7 @@ class ResearchAgent(BaseAgent):
         # Only initialize LLM if API key is available
         if settings.OPENAI_API_KEY:
             self.llm = ChatOpenAI(
-                model="gpt-3.5-turbo",
+                model="gpt-4.1-mini",
                 temperature=0.1,
                 api_key=settings.OPENAI_API_KEY
             )
